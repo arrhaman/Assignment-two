@@ -91,4 +91,19 @@ h1{
     height: 40px;
 }
 /* icon style end  */
+.middle-place{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.content{
+    width: 240px;
+    height: 400px;
+    background-color: rgba(233, 229, 229, 0.575);
+}
+.content img{
+    width: 220px;
+    height: 170px;
+    margin-top: 15px;
+    margin-left: 10px;
 
+}
