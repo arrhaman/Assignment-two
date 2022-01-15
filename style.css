@@ -164,12 +164,15 @@ footer{
 }
 #latest-camera{
     margin-left: 90px;
+    border-radius: 50px;
+    height: 300px;
+    width: 350px;
 }
 /* media quaries */
 /* Mobile Device */
 @media only screen and (max-width:688px) {
     
-    .middle-place,  .top-section{
+    .middle-place,.top-section{
         display: block;
         width: 688px;
         padding-right: 100px;
@@ -184,11 +187,23 @@ footer{
     .icon{
         margin-left: 200px;
     }
+    #latest-camera{
+        margin: 0px;
+    }
+    .see-more{
+        margin: 40px;}
 }
 
 /* tab device media quaries */
 @media only screen and (min-width:768) and (max-width:1024px) {
-    .middle-place, .top-section{
-        background-color: rgb(167, 0, 167);
+    .middle-place,{
+        display: grid:
+        grid-template-columns: repeat(2, 2fr);;
+        
     }
+    #latest-camera{
+        margin: 0px;
+    }
+    .see-more{
+        margin: 0px;}
 }
