@@ -149,3 +149,46 @@ footer{
     color: white;
     font-size: 20px;
 }
+.see-more{
+    margin-left: 750px;
+}
+.see-more a{
+    color: red;
+    text-decoration: none;
+}
+#see-more-icon{
+    color: red;
+    margin: 5px;
+    font-size: 10px;
+    
+}
+#latest-camera{
+    margin-left: 90px;
+}
+/* media quaries */
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    
+    .middle-place,  .top-section{
+        display: block;
+        width: 688px;
+        padding-right: 100px;
+         }
+   
+    footer{
+       width: 688px;
+    }
+    nav{
+        margin-top: 20px;
+    }
+    .icon{
+        margin-left: 200px;
+    }
+}
+
+/* tab device media quaries */
+@media only screen and (min-width:768) and (max-width:1024px) {
+    .middle-place, .top-section{
+        background-color: rgb(167, 0, 167);
+    }
+}
